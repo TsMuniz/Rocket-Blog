@@ -10,6 +10,7 @@
 }
 body {
   background-color: var(--light-purple);
+  padding-inline: 13.6rem;
 }
 
 * {
