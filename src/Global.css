@@ -6,11 +6,13 @@
   --light-purple: #fbf6ff;
   --green: #4fff4b;
   --text: #000;
+
+  --main-padding : 13.6rem;
+
   font-size: 62.5%; /* 1rem = 10px */
 }
 body {
   background-color: var(--light-purple);
-  padding-inline: 13.6rem;
 }
 
 * {
