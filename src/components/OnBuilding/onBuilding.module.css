@@ -1,0 +1,14 @@
+.div {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: none;
+    font-style: bold;
+    font-size: 8rem;
+    color: var(--button-bg); 
+}

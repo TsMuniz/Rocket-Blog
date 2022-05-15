@@ -12,6 +12,14 @@ export const Card = styled.div`
     color: var(--purple-bg);
     }
 
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
     p {
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;

@@ -10,7 +10,7 @@ export default function Home() {
   const {
     image,
     date,
-    text,
+    preview,
     title
   } = posts[0];
 
@@ -24,7 +24,7 @@ export default function Home() {
           alt="asdasd"
           date={date}
           title={title}
-          text={text}
+          preview={preview}
           width="56.9" 
           height="54.609"
         />
@@ -32,13 +32,13 @@ export default function Home() {
           { <PostCard
           date={posts[4].date}
           title={posts[4].title}
-          text={posts[4].text}
+          preview={posts[4].preview}
           
         />}
           { <PostCard
           date={posts[5].date}
           title={posts[5].title}
-          text={posts[5].text}
+          preview={posts[5].preview}
           
         />}
         </aside>
@@ -50,7 +50,7 @@ export default function Home() {
        { postsFiltered.map(({
           image,
           date,
-          text,
+          preview,
           title
         }, index) => 
         index < 3 && (
@@ -60,7 +60,7 @@ export default function Home() {
           alt="asdasd"
           date={date}
           title={title}
-          text={text}
+          preview={preview}
           width="37" 
           height="45.854"
         />

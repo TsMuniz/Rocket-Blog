@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 7rem;
+    width: 100vw;
+    height: 17.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple-bg);
+    padding-inline: var(--main-padding);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    color: var(--light-purple);
+}
