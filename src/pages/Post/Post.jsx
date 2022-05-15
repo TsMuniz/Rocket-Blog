@@ -32,15 +32,15 @@ export default function Post({match}) {
         <h5>Compartilhe este texto!</h5>
 
         <div>
-          <a href={`https://www.facebook.com/sharer/sharer.php?u=${match.url}`}>
+          <a href={`https://www.facebook.com/sharer/sharer.php?u=https://rocket-blog-lyart.vercel.app/${match.url}`}>
             <img src={facebook} alt="incone do facebook "/>
           </a>
 
-          <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${match.url}`}>
+          <a href={`https://www.linkedin.com/shareArticle?mini=true&url=https://rocket-blog-lyart.vercel.app/${match.url}`}>
             <img src={linkedin} alt="incone do linkedin "/>
           </a>
 
-          <a href={`https://api.whatsapp.com/send?text=${match.url}`} >
+          <a href={`https://api.whatsapp.com/send?text=https://rocket-blog-lyart.vercel.app/${match.url}`} >
             <img src={whatsapp} alt="incone do whatsapp "/>
           </a>
         </div>
