@@ -1,6 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { Card } from './postCardStyled'
+import React from 'react';
+import { Card } from './postCardStyled';
 
 export default function PostCard({ heigth, width,image, alt, date, title, preview}) {
   const stringWithoutEmptySpaces = title.replace(/( )+/g, '_')

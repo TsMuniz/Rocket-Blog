@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import styles from './navMenu.module.css'
+import React from 'react';
+// import { Link } from 'react-router-dom';
+import styles from './navMenu.module.css';
 export default function NavMenu() {
   // Por algum motivo que ainda vou descobrir a tag "Link" nao estava funcionado, por isso utilizei a tag a.
   return (

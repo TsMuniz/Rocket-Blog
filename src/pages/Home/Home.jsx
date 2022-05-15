@@ -6,7 +6,7 @@ import styles from './home.module.css';
 
 export default function Home() {
   const [posts, setPosts] = useState([...data]);
-
+  console.log(setPosts);
   const {
     image,
     date,
