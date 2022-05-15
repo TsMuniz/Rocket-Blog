@@ -12,6 +12,12 @@ tempo hábil para algo mais elaborado e por ter convicção que em um blog
 está é uma das funcionalidades mais importantes. Ao ver uma noticia ou uma 
 curiosida as pessoas sempre desejam compartilhar com os amigos. 
 
+# Mais Detalhes
+
+Responsividade ainda não implemntada.
+A tag Link do React-router-dom nao funcionou
+por isso utilizei a tag `<a>`.
+
 # Features Futuras
 
 Estou começando meus estudos em back-end e por isso nao implementei as features que irei listar agora.
@@ -40,5 +46,5 @@ Estou começando meus estudos em back-end e por isso nao implementei as features
 }
 
 
-
+### Obrigado pela atenção!!
 
