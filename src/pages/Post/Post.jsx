@@ -2,8 +2,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import data from '../../components/Assets/data';
-import styles from './post.module.css'
-import {shareIcons} from '../../components/Assets/data'
+import styles from './post.module.css';
+import {shareIcons} from '../../components/Assets/data';
 
 export default function Post({match}) {
   console.log(match)
